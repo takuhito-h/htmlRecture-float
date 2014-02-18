@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>floatプロパティについて</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -173,15 +173,20 @@
 
 				<section>
 
-					<h3>解決方法</h3>
+					<h3>解決方法は２種類あります</h3>
+
+					<ul>
+						<li>後に続く要素にclear:both;をつける</li>
+						<li>clearfixで解決する</li>
+					</ul>
+
+					<p>※最近の傾向としてはclearfixしかほとんど使いません。</p>
 
 				</section>
 
 				<section>
 
-					<h3>後に要素がない場合</h3>
-
-					<p>後に続く要素にclear:bothを設定してやります。</p>
+					<h3>後に続く要素にclear:both;をつける</h3>
 
 					<p><a href="float-8.html">レイアウト8</a></p>
 
@@ -189,9 +194,9 @@
 
 				<section>
 
-					<h3>後に続く要素がない場合は？</h3>
+					<h3>clearfixで解決する</h3>
 
-					<p>親要素にclearfixのクラスを追加して上げます。</p>
+					<p>親要素にclearfixのクラスを追加してあげます。</p>
 
 					<p><a href="float-9.html">レイアウト9</a></p>
 
