@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+.slides .testBody{
+	font-size: 22px;
+	position: relative;
+	margin-bottom: 40px;
+	border: 1px solid #fff;
+	padding: 20px;
+}
+
+.textBox{
+	text-align: left;
+}
+
+.slides .t-box{
+	background-color: #0000ff;
+	width: 75px;
+	height: 75px;
+}
+
+.slides .w-static{
+	position: static;
+	background-color: #880000;
+	border: 1px solid #fff;
+	height: 190px;
+	margin: 0 auto;
+}
+
+.slides .w-static:before{
+	content: "static";
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -0.5em;
+	width: 100%;
+	text-align: center;
+}
+
+.slides .w-relative{
+	position: relative;
+	background-color: #880000;
+	border: 1px solid #fff;
+	height: 190px;
+	margin: 0 auto;
+}
+
+.slides .w-relative:before{
+	content: "relative";
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -0.5em;
+	width: 100%;
+	text-align: center;
+}
+
+/*--------------------------------------------------------
+    display:block
+--------------------------------------------------------*/
+.slides .block-1{
+	background-color: #f00;
+	border: 1px solid #888;
+}
+
+.slides .block-2{
+	background-color: #f00;
+	border: 1px solid #888;
+	padding: 20px;
+	width: 400px;
+}
+
+.slides .block-3{
+	background-color: #f00;
+	border: 1px solid #888;
+	margin: 0 auto;
+	width: 200px;
+}
+
+/*--------------------------------------------------------
+    display:inline
+--------------------------------------------------------*/
+.slides .inline-1{
+	background-color: #f00;
+	border: 1px solid #888;
+}
+
+.slides .inline-2{
+	background-color: #f00;
+	border: 1px solid #888;
+	padding: 3px 10px;
+}
+
+.slides .inline-3{
+	background-color: #f00;
+	border: 1px solid #888;
+	margin: 0 100px;
+}
+
+.slides .inline-4{
+	color: #000;
+	background-color: #f00;
+	border: 1px solid #888;
+}
+
+/*--------------------------------------------------------
+    display:inlineBlock
+--------------------------------------------------------*/
+.slides .inlineBlock-1{
+	padding: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #f00;
+	border: 1px solid #888;
+	width: 100px;
+	height: 200px;
+}
+
+.slides .inlineBlock-2{
+	padding: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #f00;
+	border: 1px solid #888;
+	padding: 3px 10px;
+	height: 50px;
+}
+
+.slides .inlineBlock-3{
+	padding: 5px;
+	display: inline-block;
+	background-color: #f00;
+	border: 1px solid #888;
+	margin: 20px 0;
+	padding: 50px 0;
+	width: 100%;
+}
+
+.slides .inlineBlock-4{
+	padding: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #f00;
+	border: 1px solid #888;
+	height: 100px;
+}
+
+.slides .inline-1{
+	padding: 5px;
+	background-color: #f00;
+	border: 1px solid #888;
+	height: 100px;	
+}
+
+/*--------------------------------------------------------
+    paging
+--------------------------------------------------------*/
+.slides .paging{
+	text-align: center;
+}
+
+.slides .paging li{
+	display: inline-block;
+	background-color: #f00;
+	line-height: 1;
+	padding: 10px;
+	width: 30px;
+}
+
+/*--------------------------------------------------------
+    verticalC
+--------------------------------------------------------*/
+.slides .verticalC-block{
+	text-align: left;
+	margin: 0 auto;
+	width: 300px;
+}
+
+.slides .verticalC-img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	background-color: #000;
+	text-align: center;
+	line-height: 100px;
+	width: 100px;
+	height: 100px;
+}
+
+.slides .verticalC-text{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1.5;
+}
+
+
+/*--------------------------------------------------------
+    static
+--------------------------------------------------------*/
+.slides .t-static{
+	background-color: #ff0000;
+	position: static;
+	left: 0;
+	top: 0;
+	width: 75px;
+	height: 75px;
+}
+    
+/*--------------------------------------------------------
+    relative
+--------------------------------------------------------*/
+.slides .t-init-relative,
+.slides .t-relative{
+	width: 75px;
+	height: 75px;	
+}
+
+.slides .t-init-relative{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 14px;
+	line-height: 67px;
+	border: 4px dashed #ff0000;
+	position: absolute;
+}
+
+.slides .t-relative{
+	background-color: #ff0000;
+	position: relative;
+	left: 300px;
+	top: 100px;
+}
+    
+/*--------------------------------------------------------
+    absolute
+--------------------------------------------------------*/
+.slides .t-absolute{
+	background-color: #ff0000;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 75px;
+	height: 75px;
+}
+    
+/*--------------------------------------------------------
+    absolute-2
+--------------------------------------------------------*/
+.slides .t-absolute-2{
+	background-color: #ff0000;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 75px;
+	height: 75px;
+}
